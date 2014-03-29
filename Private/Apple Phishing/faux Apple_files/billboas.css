@@ -1,0 +1,553 @@
+
+
+#billboard .watch a { background-image:url(home_wat.png); width:242px; background-size:242px 124px; }
+#billboard .video a { background-image:url(home_vid.png); width:208px; background-size:208px 124px; }
+#billboard .learn a { background-image:url(home_lea.png); width:200px; background-size:200px 124px;  }
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+  #billboard .watch a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_watch_2x.png); }
+  #billboard .video a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_video_2x.png); }
+  #billboard .learn a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_learn_2x.png); }
+}
+
+
+/* iphone */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+  #billboard .watch a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_watch_handp.png); width:416px; background-size:416px 162px; }
+  #billboard .video a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_video_handp.png); width:357px; background-size:357px 162px; }
+  #billboard .learn a { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_learn_handp.png); width:400px; background-size:400px 162px; }
+  #home.nokeynote #billboard .cta .learn { width: 400px; }
+}
+
+/* iphone 5c
+=================================================================*/
+
+
+  /* type
+  ----------------*/
+
+  #billboard .iphone-5c .title { background-image:url(home_iph.png); background-size: 335px 63px; height:63px; width:335px; }
+  #billboard .iphone-5c .subhead { background-image:url(home_ipi.png); background-size: 980px 37px; height:37px; width:980px; }
+
+  #billboard .desktop-small .iphone-5c .text .title { background-image:url(home_iph.png); background-size: 335px 63px; height:63px; width:335px; }
+  #billboard .desktop-small .iphone-5c .text .subhead { background-image:url(home_ipi.png); background-size: 980px 37px; height:37px; width:980px; }
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_medium_2x.png); }
+    #billboard .iphone-5c .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_medium_2x.png); }
+  }
+
+  /* desktop large & ipad portrait */
+  @media only screen and (min-height:750px) and (min-width:980px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .iphone-5c .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_large.png); background-size:432px 83px; width:432px; height:83px; }
+    #billboard .iphone-5c .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_large.png); height:48px; width:945px; background-size:945px 48px; }
+    #billboard .desktop-large .iphone-5c .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_large.png); background-size:432px 83px; width:432px; height:83px; }
+    #billboard .desktop-large .iphone-5c .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_large.png); height:48px; width:945px; background-size:945px 48px; }
+  }
+
+  @media only screen and (min-height:750px) and (min-width:980px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-height:750px) and (min-width:980px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_large_2x.png); }
+    #billboard .iphone-5c .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_large_2x.png); }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+    #billboard .iphone-5c .title { background-image:url(home_iph.png); height:63px; width:335px; background-size: 335px 63px; }
+    #billboard .iphone-5c .subhead { background-image:url(home_ipi.png); height:37px; width:980px; background-size: 980px 37px; }
+  }
+
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_medium_2x.png); }
+    #billboard .iphone-5c .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_medium_2x.png); }
+  }
+
+  /* iphone landscape short */
+   @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .iphone-5c .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_handl.png); width:255px; height:49px; background-size:255px 49px; }
+    #billboard .iphone-5c .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_handl.png); width:980px; height:37px; background-size: 980px 37px;  }
+  }
+
+  /* iphone landscape fullscreen */
+   @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .iphone-5c .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_large.png); background-size:432px 83px; width:432px; height:83px; }
+    #billboard .iphone-5c .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_large.png); height:48px; width:945px; background-size:945px 48px; }
+  }
+
+  /* iphone portrait */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .iphone-5c .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5c_hero_title_handp.png); height:126px; width:644px; background-size: 644px 126px; }
+    #billboard .iphone-5c .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5c_hero_subhead_handp.png); width:980px; height:90px; background-size: 980px 90px;  }
+  }
+
+  /* images
+  ------------------*/
+
+  /* small desktop */
+  #billboard .iphone-5c .image { height:97px; width:706px; background-size:706px 97px; }
+  #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_small.png); }
+  #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_small.png); }
+  #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_small.png); }
+  #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_small.png); }
+  #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_small.png); }
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    /* small desktop */
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_small_2x.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_small_2x.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_small_2x.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_small_2x.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_small_2x.png); }
+  }
+
+  /* medium desktop */
+  @media only screen and (min-height:600px) and (max-height:749px) {
+    #billboard .iphone-5c .image  { width:948px; height:131px; background-size: 948px 131px; }
+    #billboard .iphone-5c.blue .image { background-image:url(home_ipj.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_medium.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(home_ipk.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_medium.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_medium.png); }
+  }
+
+  @media only screen and (min-height:600px) and (max-height:749px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-height:600px) and (max-height:749px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_medium_2x.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_medium_2x.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_medium_2x.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_medium_2x.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_medium_2x.png); }
+  }
+
+  /* large desktop */
+  @media only screen and (min-height:750px) and (min-width:980px) {
+    #billboard .iphone-5c .image  { width:1090px; height:150px; background-size: 1090px 150px; }
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_large.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_large.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_large.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_large.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_large.png); }
+  }
+
+  @media only screen and (min-height:750px) and (min-width:980px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-height:750px) and (min-width:980px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_large_2x.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_large_2x.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_large_2x.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_large_2x.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_large_2x.png); }
+  }
+
+  /* ipad and iphone portrait */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px), only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .iphone-5c .image { width:948px; height:132px; background-size: 948px 132px; }
+    #billboard .iphone-5c.blue .image { background-image:url(home_ipj.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_medium.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(home_ipk.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_medium.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_medium.png); }
+  }
+
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_medium_2x.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_medium_2x.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_medium_2x.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_medium_2x.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_medium_2x.png); }
+  }
+
+  /* iphone landscape */
+  /* iphone landscape short */
+   @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .iphone-5c .background .image {  width:400px; height:55px; background-size: 400px 55px; }
+    #billboard .iphone-5c.blue .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_blue_handl.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_handl.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_yellow_handl.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_handl.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_handl.png); }
+  }
+
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .iphone-5c .background .image {  width:938px; height:131px; background-size: 938px 131px; }
+    #billboard .iphone-5c.blue .image { background-image:url(home_ipj.png); }
+    #billboard .iphone-5c.green .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_green_medium.png); }
+    #billboard .iphone-5c.yellow .image { background-image:url(home_ipk.png); }
+    #billboard .iphone-5c.pink .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_pink_medium.png); }
+    #billboard .iphone-5c.white .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5c_hero_white_medium.png); }
+  }
+
+/* iphone 5s
+=================================================================*/
+
+  /* type
+  ------------------*/
+
+  /* small desktop */
+  #billboard .iphone-5s .title { background-image:url(home_ipl.png); width:335px; height:64px; background-size:335px 64px; }
+  #billboard .iphone-5s .subhead { background-image:url(home_ipm.png); width:980px; height:37px; background-size:980px 37px; }
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_medium_2x.png); }
+    #billboard .iphone-5s .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_medium_2x.png); }
+  }
+
+  /* large type: desktop large & ipad portrait */
+  @media only screen and (min-height:750px) and (min-width:980px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .iphone-5s .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_large.png); width:433px; height:83px; background-size:433px 83px; }
+    #billboard .iphone-5s .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_large.png); width:944px; height:49px; background-size:944px 49px; }
+  }
+
+  @media only screen and (min-height:750px) and (min-width:980px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+        only screen and (min-height:750px) and (min-width:980px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+        only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+        only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_large_2x.png); }
+    #billboard .iphone-5s .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_large_2x.png); }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+    #billboard .iphone-5s .title { background-image:url(home_ipl.png); width:335px; height:64px; background-size:335px 64px; }
+    #billboard .iphone-5s .subhead { background-image:url(home_ipm.png); width:980px; height:37px; background-size:980px 37px; }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_medium_2x.png); }
+    #billboard .iphone-5s .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_medium_2x.png); }
+  }
+
+  /* iphone landscape short */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .iphone-5s .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_handl.png); height:49px; width:255px; background-size:255px 49px;   }
+    #billboard .iphone-5s .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_handl.png); height:31px; width:980px; background-size:980px 31px; }
+  }
+
+  /* iphone landscape tall */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .iphone-5s .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_large.png); width:433px; height:83px; background-size:433px 83px; }
+    #billboard .iphone-5s .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_large.png); width:944px; height:49px; background-size:944px 49px; }
+  }
+
+  /* iphone portrait */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .iphone-5s .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_iphone5s_hero_title_handp.png); height:122px; width:644px; background-size: 644px 122px; }
+    #billboard .iphone-5s .text .subhead { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_iphone5s_hero_subhead_handp.png); height:86px; width:980px; background-size: 980px 86px;  }
+  }
+
+
+  /* images
+  ------------------*/
+
+  /* small desktop */
+  #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_small.png); width:700px; height:176px; background-size:700px 176px; }
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_small_2x.png); }
+  }
+
+  /* medium desktop */
+  @media only screen and (min-height:600px) and (max-height:749px) {
+    #billboard .iphone-5s .image { background-image:url(home_ipn.png); width:948px; height:248px; background-size:948px 248px; }
+  }
+
+  @media only screen and (min-height:600px) and (max-height:749px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-height:600px) and (max-height:749px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+      #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_medium_2x.png); }
+  }
+
+  /* large desktop */
+  @media only screen and (min-height:750px) and (min-width:980px) {
+    #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_large.png); width:1092px; height:277px; background-size:1092px 277px; }
+  }
+
+  @media only screen and (min-height:750px) and (min-width:980px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-height:750px) and (min-width:980px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_large_2x.png); }
+  }
+
+  /* ipad and iphone portrait */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px),only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .iphone-5s .image { background-image:url(home_ipn.png); width:948px; height:248px; background-size:948px 248px; }
+  }
+
+  /* ipad and iphone portrait */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_medium_2x.png); }
+  }
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .iphone-5s .image { background-image:url(http://images.apple.com/uk/home/images/home_iphone5s_hero_handl.png); width:388px; height:97px; background-size:388px 97px; }
+  }
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .iphone-5s .image { background-image:url(home_ipn.png); width:948px; height:248px; background-size:948px 248px; }
+  }
+
+
+
+/* ios
+=================================================================*/
+
+  /* type
+  ------------------*/
+
+  #billboard .ios .title { background-image:url(home_ios.png); width:157px; height:62px; background-size:157px 62px; }
+  #billboard .ios .subhead { background-image:url(home_iot.png); width:414px; height:71px; background-size:414px 71px; margin-bottom : 20px;}
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_medium_2x.png); }
+    #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_medium_2x.png); }
+  }
+
+  /* large desktop + ipad portrait*/
+  @media only screen and (min-height:750px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_large.png); width:196px; height:76px; background-size:196px 76px;}
+    #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_large.png); width:944px; height:49px; background-size:944px 49px; }
+  }
+
+  /* large desktop + ipad portrait*/
+  @media only screen and (min-height:750px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+     only screen and (min-height:750px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_large_2x.png); }
+    #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_large_2x.png); }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+    #billboard .ios .title { background-image:url(home_ios.png); width:157px; height:62px; background-size:157px 62px; }
+    #billboard .ios .subhead { background-image:url(home_iot.png); width:414px; height:71px; background-size:414px 71px; }
+    #billboard .ios .text .cta { position: absolute; top: 159px; left: 283px; }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_medium_2x.png); }
+    #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_medium_2x.png); }
+    #billboard .ios .text .cta { position: absolute; top: 159px; left: 283px; }
+  }
+
+    /* iphone landscape */
+    @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+  /*   #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_handl.png); height:76px; background-size:194px 76px; }*/
+      #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_handl.png); width:393px; height:60px; background-size:393px 60px; }
+    }
+
+
+  /* iphone landscape fullscreen */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .ios .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_large.png); width:196px; height:76px; background-size:196px 76px;}
+    #billboard .ios .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_large.png); width:944px; height:49px; background-size:944px 49px; }
+  }
+
+  /* iphone portrait */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .ios .text .title { background-image:url(http://images.apple.com/euro/home/h/generic/images/home_ios_hero_title_handp.png); width:286px; height:110px; background-size: 286px 110px; }
+    #billboard .ios .text .subhead { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_subhead_handp.png); width:980px; height:150px; background-size: 980px 150px; }
+  }
+
+
+  /* images
+  ------------------*/
+
+  /* small desktop left */
+  #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_small.jpg);  width:717px; height:452px; background-size:717px 452px; }
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_small_2x.jpg); }
+  }
+
+  /* medium desktop left */
+  @media only screen and (min-height:600px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .ios .image { background-image:url(home_ios.jpg);  width:783px; height:702px; background-size:783px 702px; }
+  }
+
+  /* medium desktop left */
+  @media only screen and (min-height:600px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-height:600px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+    only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_medium_2x.jpg); }
+  }
+
+  /* large desktop + ipad portrait */
+  @media only screen and (min-height:750px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_large.jpg); height:640px; width:942px; background-size:942px 640px; }
+  }
+
+  @media only screen and (min-height:750px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-height:750px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_large_2x.jpg); }
+  }
+
+  /* massive desktop */
+  @media only screen and (min-height:1090px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_massive.jpg); height:768px; width:1122px; background-size:1122px 768px; }
+  }
+
+
+  /* massive desktop */
+  @media only screen and (min-height:1090px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-height:1090px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_massive_2x.jpg); }
+  }
+
+  /* ipad portrait */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .ios .image { width:1122px; height:768px; background-size:1122px 768px; }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_small.jpg); width:717px; height:452px; background-size:717px 452px;}
+  }
+
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_small_2x.jpg); }
+  }
+
+  /* iphone portrait */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .ios .image { background-image:url(home_ios.jpg); width:783px; height:702px; background-size:783px 702px;  }
+  }
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .ios .image { background-image:url(http://images.apple.com/uk/home/images/home_ios_hero_small.jpg); width: 546px; height: 344px; background-size: 546px 344px; }
+  }
+
+  /* iphone landscape fullscreen */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    /* -- */
+  }
+
+
+
+/* keynote
+=================================================================*/
+
+  /* type
+  ------------------*/
+
+  /* small desktop */
+  #billboard .keynote .title { background-image:url(home_key.png); height:175px; width:525px; background-size:525px 175px; }
+
+
+  @media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+         only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_medium_2x.png); }
+  }
+
+  /* large desktop */
+  @media only screen and (min-height:750px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_large.png); width:944px; height:125px; background-size:944px 125px; }
+  }
+
+  @media only screen and (min-height:750px) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-height:750px) and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_large_2x.png); }
+  }
+
+  /* ipad landscape */
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+    #billboard .keynote .title { background-image:url(home_key.png); }
+  }
+
+  @media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+  only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_medium_2x.png); }
+  }
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_small.png); width:525px; height:525; background-size:525px 175px; }
+  }
+
+  /* iphone landscape */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) and (min-height:500px) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_handl_large.png); width:580px; height:800px; background-size:800px 218px; }
+  }
+
+  /* iphone portrait */
+  @media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+    #billboard .keynote .title { background-image:url(http://images.apple.com/euro/home/h/titles_en/images/home_keynote_hero_title_handp.png); width:980px; height:326px; background-size:980px 326px; }
+    #billboard .ios .text .cta { width: 812px !important; left: 140px; }
+  }
+  
+  
+
+
+/* Local Styles */
+#billboard .ios .text { *margin-top: -325px; }
+.nokeynote #billboard .cta .learn { width: 200px; }
+#billboard .iphone-5c .cta, #billboard .iphone-5s .cta { width: 760px; left: 132px; }
+#billboard .iphone-5c .cta .learn, #billboard .iphone-5s .cta .learn { margin-left: -32px; }
+#billboard .ios .text .cta .watch { margin-right: -4px; }
+#billboard .ios .text .cta { width: 440px; position: absolute; top: 159px; left: 284px; }
+#billboard.flexible .ios .subhead { padding-bottom: 0px; }
+#billboard .keynote .text .cta .watch { *margin-right: -12px; }
+
+
+
+/* LOCAL SNAP POINTS ONLY */
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+	#billboard .ios .text .cta { left: 146px; top: 310px; }
+	#billboard .ios .text .cta .watch { margin-right: -41px; }
+}
+
+/* iphone landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .ios .text .cta .learn { left: -22px; position: absolute; }
+}
+
+/* iphone landscape fullscreen */
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (min-height: 500px) and (orientation: landscape) {
+	#billboard .ios .text .cta .learn { left: 232px; position: absolute; }
+}
+
+/* iOS iPhone CTA left margin fix */
+	@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (orientation: landscape) {
+		#home.nokeynote #billboard .ios .text .cta { left: 261px; }
+	}
+/* --------------------------- */
+
+
+/* iOS iPhone CTA width fix */
+	@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (orientation: portrait) {
+		#billboard .learn a { width: 400px; }
+		#billboard .cta { width: 400px; }
+		.nokeynote #billboard .cta .learn { width: 400px; }
+	}
+/* --------------------------- */
+
+
+/* END LOCAL SNAP POINTS */

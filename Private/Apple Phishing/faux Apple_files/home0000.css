@@ -1,0 +1,64 @@
+/* wwdc 2013 test */
+
+html, body { background:#fff; }
+.globalnav-wrapper { position:absolute; z-index:9998; width:100%; margin:18px 0; }
+#globalheader { margin:0 auto; }
+#main { width:100%; min-width:980px; margin:0; clear:both; color:#76797c; }
+
+/* homefooter */
+#homefooter { position:static; margin:0; width:100%; min-width:980px; padding:0; text-align:center; font-size:.8334em; line-height:1.2; color:#6e6e6e; background:#fff; zoom:1; }
+#homefooter .wrapper { margin:0 auto; width:980px; padding:1em 0 2.6em; }
+#homefooter .wrapper:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#homefooter .left { float:left; clear:both; width:49%; padding-top:1.5em; text-align:left; }
+#homefooter .right { float:right; width:51%; padding-top:1.5em; text-align:right; }
+
+#homefooter p,
+#homefooter ul,
+#homefooter ul li { display:inline; margin:0; }
+
+#homefooter .piped li { float:none; display:inline-block; *display:inline; margin-left:.6em; padding-left:.6em; border-left:1px solid #ccc; }
+#homefooter .piped li.first { margin-left:0; padding-left:0; border-left:none; }
+#homefooter .piped a { display:inline-block; margin:0; padding:0; border:none; }
+
+#homefooter .piped .worldwide { position:relative; z-index:1; width:16px; height:12px; zoom:1; }
+#homefooter .piped .worldwide img { position:absolute; z-index:1; top:-2px; left:7px; }
+
+
+/* generic */
+@media only screen and (min-height:790px) and (min-width:980px) {
+  /* commented out since we're making the slides 100% tall, users need to be able to scroll to footer */
+  /*body { overflow:hidden; }*/
+}
+
+#main { *padding-bottom:0; *height:100%; zoom:1; }
+
+#main,
+.gallery-content-video,
+.gallery-wrapper { min-height:546px; }
+
+
+/* wrapper view */
+.gallery-content-video { display:none; width:100%; height:100%; }
+
+.gallery-wrapper { position:relative; z-index:1; overflow:hidden; }
+.gallery-wrapper .gallery-content-video { display:block; }
+
+.gallery-content-video .blocker { position:absolute; z-index:3; bottom:0; left:50%; margin:-1px 0 0 -490px; width:980px; height:5px; border-bottom:1px solid #e2e2e2; }
+
+.gallery-content-video .close { display:block; position:absolute; z-index:10; top:50%; left:50%; margin:-270px 0 0 -450px; width:28px; height:28px; text-indent:-9999px; background:url(http://images.apple.com/v/home/u/images/close.png) no-repeat 0 0; *background-image:url(http://images.apple.com/v/home/u/images/close.gif); }
+.gallery-content-video .close:hover { background-position:0 100%; }
+
+.gallery-content-video .moviePanel { position:absolute; z-index:4; top:50%; left:50%; margin:-242px 0 0 -420px; width:840px; height:484px; }
+.gallery-content-video .moviePanel .video { z-index:10; }
+
+@media only screen and (max-device-width:768px) and (orientation:landscape) { /* ipad/iphone landscape */
+  .gallery-content-video { max-width:1024px; max-height:700px; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) { /* retina */
+  .gallery-content-video .close { background-image:url(http://images.apple.com/v/home/u/images/close_2x.png); background-size:28px 56px; }
+}
+
+.moviePanel { width:848px !important; height:480px !important; }
+.ACMediaSettingsMenu { top:0; left:0; }
